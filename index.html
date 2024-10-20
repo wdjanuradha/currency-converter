@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter 2024</title>
+    <link rel="stylesheet" href="currency-converter.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Currency Converter 2024</h1>
+        <div class="converter">
+            <div class="input-group">
+                <input type="number" id="amount" placeholder="Enter amount" value="1">
+                <select id="from-currency"></select>
+            </div>
+            <button id="swap-button">⇆</button>
+            <div class="input-group">
+                <input type="number" id="result" readonly>
+                <select id="to-currency"></select>
+            </div>
+        </div>
+        <button id="convert-button">Convert</button>
+        <p id="exchange-rate"></p>
+        <p id="last-update">Exchange rates last updated: January 2024</p>
+    </div>
+    <script src="currency-converter.js"></script>
+</body>
+</html>
